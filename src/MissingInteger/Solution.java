@@ -1,3 +1,4 @@
+package MissingInteger;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -28,7 +29,7 @@ class Solution {
 
 	// 以下は課題のScope外。
 	public static void main(String[] args) {
-		Path path = Paths.get("./test-input.txt");
+		Path path = Paths.get("./resource/test-input.txt");
 		List<String> text;
 		try {
 			text = Files.lines(path, StandardCharsets.UTF_8).collect(Collectors.toList());
